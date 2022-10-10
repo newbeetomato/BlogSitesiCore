@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DataAccesLayer.Repositories
+namespace DataAccesLayer.EntityFramework
 {
-    public class CommentRepositories
+    internal class EfContectRepository
     {
     }
 }
