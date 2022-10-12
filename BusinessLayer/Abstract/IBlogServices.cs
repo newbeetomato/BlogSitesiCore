@@ -1,4 +1,5 @@
-﻿using EntityLayer.Concreat;
+﻿using DataAccesLayer.Abstract;
+using EntityLayer.Concreat;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,5 +15,6 @@ namespace BusinessLayer.Abstract
         void BlogUpdate(Blog blog);
         List<Blog> GetList();
         Blog GetById(int id);
+        List<Blog> GetBlogListWithCategory();
     }
 }
